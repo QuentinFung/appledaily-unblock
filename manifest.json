@@ -1,0 +1,21 @@
+{
+	"manifest_version": 2,
+	"name": "蘋果日報免登記會員",
+	"description": "免登記成為會員都可安心睇蘋果日報🍎",
+	"icons": { "120": "icon.png" },
+	"version": "1.0",
+	"content_scripts": [
+		{
+			"matches": [
+				"*://hk.news.appledaily.com/*",
+				"*://hk.video.appledaily.com/*",
+				"*://hk.entertainment.appledaily.com/*",
+				"*://hk.finance.appledaily.com/*",
+				"*://hk.lifestyle.appledaily.com/*",
+				"*://hk.sports.appledaily.com/*"
+			],
+			"js": ["content.js"],
+			"run_at": "document_start"
+		}
+	]
+}
