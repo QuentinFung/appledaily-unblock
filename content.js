@@ -3,16 +3,6 @@
 
 console.log("--- SCRIPT STARTED ---");
 try {
-	//console.log("--- removing article height limit ---");
-	//$('#articleContent').css('overflow', 'auto');
-	//$('#articleContent').css('height', 'auto');
-	
-	//console.log("--- removing gradient bg ---");
-	//$('head').append('<style>#articleContent:before{background:none !important;}</style>');
-	
-	//console.log("--- hiding register block ---");
-	//$('head').append('<style>.contentblock-block{display:none !important;}</style>');
-	
 	console.log("--- stopping DOM loading ---");
 	stop();
 
@@ -21,7 +11,12 @@ try {
 		var xhr = new XMLHttpRequest();
 		xhr.open('GET', link.href);
 		xhr.onload = () => {
+			// HK, US
 			var html = xhr.responseText.replace('function uReadDisplayMsgBox(showdef){', 'function uReadDisplayMsgBox(showdef){}\nfunction xxx(showdef){');
+			// TW
+			html = html.replace('var effects = function(e,val){', 'var effects = function(e,val){$(".ndAritcle_headPic,.ndArticle_margin,.mediabox,#playerVideo,.articulum").show();};\nvar effectsx = function(e,val){');
+			html = html.replace('.parent().remove();', '.parent();');
+			html = html.replace('class="ndArticle_margin" style="display: none;"', 'class="ndArticle_margin"');
 			document.open();
 			document.write(html);
 			document.close();
