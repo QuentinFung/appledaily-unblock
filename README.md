@@ -14,6 +14,8 @@
 
 Changelog
 ----
+- v1.2 (2019-05-06)
+	- add support for URL like *://tw.appledaily.com/*
 - v1.1 (2019-05-06)
 	- add support for Taiwan Apple Daily
 - v1.0 (2019-04-18)
