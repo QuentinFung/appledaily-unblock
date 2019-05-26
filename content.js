@@ -18,6 +18,8 @@ try {
 			html = html.replace('var effects = function(e,val){', 'var effects = function(e,val){$(".ndAritcle_headPic,.ndArticle_margin,.mediabox,#playerVideo,.articulum").show();};\nvar effectsx = function(e,val){');
 			html = html.replace('.parent().remove();', '.parent();');
 			html = html.replace('class="ndArticle_margin" style="display: none;"', 'class="ndArticle_margin"');
+			// nextmag
+			html = html.replace('<div class="article-content">', '<div class="article-content" style="display:block!important">');
 			document.open();
 			document.write(html);
 			document.close();

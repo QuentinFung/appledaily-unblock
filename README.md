@@ -14,6 +14,8 @@
 
 Changelog
 ----
+- v1.4 (2019-05-26)
+	- add support for URL like *://www.nextmag.com.tw/*
 - v1.3 (2019-05-18)
 	- add support for URL like *://nextplus.nextmedia.com/*
 - v1.2 (2019-05-06)
