@@ -6,9 +6,9 @@
 ----
 免登記成為會員都可安心睇蘋果日報🍎
 
-有問題請到"支援"頁留言，讓我可以早點知道及更新
+無需成為蘋果日報會員都可安心睇新聞，免卻私隱煩惱
 
-大家分享可用短網址 https://apple-unblock.quentin.pro
+分享短網址：https://apple-unblock.quentin.pro
 
 PS: [之前的版本](https://chrome.google.com/webstore/detail/蘋果日報免登記會員/elngmnaookjhejalgphnloaknhibgblj) Google 遲遲不給予審批，所以砍掉重練
 
@@ -27,18 +27,20 @@ Android
 
 Changelog
 ----
+- v1.7 (2019-07-16)
+	- added support for 果燃台 (*://hk.feature.appledaily.com/*), 飲食男女 (*://etw.nextdigital.com.hk/*) and 台灣會員專區 (*://tw.feature.appledaily.com/*)
 - v1.6 (2019-07-09)
-	- add support for Hong Kong Apply Daily mobile version
+	- added support for Hong Kong Apply Daily mobile version
 - v1.5 (2019-07-04)
-	- fix changes to Taiwan Apple Daily
+	- fixed changes to Taiwan Apple Daily
 - v1.4 (2019-05-26)
-	- add support for URL like *://www.nextmag.com.tw/*
+	- added support for URL like *://www.nextmag.com.tw/*
 - v1.3 (2019-05-18)
-	- add support for URL like *://nextplus.nextmedia.com/*
+	- added support for URL like *://nextplus.nextmedia.com/*
 - v1.2 (2019-05-06)
-	- add support for URL like *://tw.appledaily.com/*
+	- added support for URL like *://tw.appledaily.com/*
 - v1.1 (2019-05-06)
-	- add support for Taiwan Apple Daily
+	- added support for Taiwan Apple Daily
 - v1.0 (2019-04-18)
 	- initial release
 

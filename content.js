@@ -24,6 +24,20 @@ try {
 			html = html.replace(/visibility: hidden;/g, '');
 			// nextmag
 			html = html.replace('<div class="article-content">', '<div class="article-content" style="display:block!important">');
+			// 果燃台
+			if (link.href.substr(0, 49) == 'https://hk.feature.appledaily.com/goodestchannel/' && link.href.substr(-2) != '.js')
+				html += "<script>function setBanPaidFalse(){if(document.querySelector('.videoPlayer')!=null && document.querySelector('.videoPlayer').__vue__.banPaid){document.querySelector('.videoPlayer').__vue__.banPaid = false;}} var r = setInterval(setBanPaidFalse, 1000);</script>";
+			// 蘋果台
+			if (link.href.substr(0, 43) == 'https://tw.feature.appledaily.com/applepie/' && link.href.substr(-2) != '.js')
+				html += "<script>function setBanPaidFalse(){if(document.querySelector('.videoPlayer')!=null && document.querySelector('.videoPlayer').__vue__.banPaid){document.querySelector('.videoPlayer').__vue__.banPaid = false;}} var r = setInterval(setBanPaidFalse, 1000);</script>";
+			// 飲食男女
+			html = html.replace('function blockContent() {', 'function blockContent() {}\nfunction xxx() {');
+			// 台灣會員專區
+			html = html.replace(/hideContent:'nm-main-articles',/g, "hideContent:'nm-main-articlesxxx',");
+			html = html.replace(".nm-main-articles {display:none;}", '');
+			html = html.replace('id="video_player"', 'id="video_playerx"');
+			html = html.replace('anvatoPlayerID = "video_player"', 'anvatoPlayerID = "video_playerx"');
+			
 			document.open();
 			document.write(html);
 			document.close();
