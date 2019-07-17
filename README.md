@@ -8,7 +8,7 @@
 
 無需成為蘋果日報會員都可安心睇新聞，免卻私隱煩惱
 
-分享短網址：https://apple-unblock.quentin.pro
+分享短網址：[https://cutt.ly/apple-unblock](https://cutt.ly/apple-unblock)
 
 PS: [之前的版本](https://chrome.google.com/webstore/detail/%E8%98%8B%E6%9E%9C%E6%97%A5%E5%A0%B1%E5%85%8D%E7%99%BB%E8%A8%98%E6%9C%83%E5%93%A1/elngmnaookjhejalgphnloaknhibgblj) Google 遲遲不給予審批，所以砍掉重練
 
