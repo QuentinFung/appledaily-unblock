@@ -1,5 +1,3 @@
-蘋果日報免登記會員
-==========
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](LICENSE)
 
 簡介
@@ -51,6 +49,6 @@ Changelog
 - v1.0 (2019-04-18)
 	- initial release
 
-Tag
+Tags
 ----
 香港, 台灣, 北美, 蘋果日報, Apple Daily, 壹週刊, Next Plus, 破解, 註冊, 訂閱, 登入, 升級, 免費, 插件, 擴充功能, 捷徑
