@@ -65,6 +65,8 @@
 
 Changelog
 ----
+- v1.9 (2019-07-22)
+	- fixed some videos not shown in HK Apple Daily
 - v1.8 (2019-07-19)
 	- added support for old URL format
 - v1.7 (2019-07-16)

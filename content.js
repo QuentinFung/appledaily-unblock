@@ -34,6 +34,8 @@ try {
 			html = html.replace(".nm-main-articles {display:none;}", '');
 			html = html.replace('id="video_player"', 'id="video_playerx"');
 			html = html.replace('anvatoPlayerID = "video_player"', 'anvatoPlayerID = "video_playerx"');
+			// 22JUL2019
+			html = html.replace("anvpInstance.createInstance('video_player')", "anvpInstance.createInstance('video_playerx')");
 			
 			document.open();
 			document.write(html);
