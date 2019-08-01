@@ -65,6 +65,8 @@
 
 Changelog
 ----
+- v1.10 (2019-08-01)
+	- fixed blank screen in Chrome v76
 - v1.9 (2019-07-22)
 	- fixed some videos not shown in HK Apple Daily
 - v1.8 (2019-07-19)

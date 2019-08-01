@@ -1,7 +1,8 @@
 console.log("--- SCRIPT STARTED ---");
 try {
 	console.log("--- stopping DOM loading ---");
-	stop();
+	
+	// 01AUG2019 fix blank screen in v76 // stop();
 
 	console.log("--- overwritting blocking JS ---");
 	(function overwrite(link) {
