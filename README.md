@@ -45,6 +45,8 @@
 		- https://nextplus.nextmedia.com
 	- 飲食男女
 		- https://etw.nextdigital.com.hk
+	- 蘋果馬網
+		- https://racing.appledaily.com.hk
 - 台灣
 	- 蘋果日報
 		- https://tw.appledaily.com
@@ -65,6 +67,8 @@
 
 Changelog
 ----
+- v1.11 (2019-09-01)
+	- added support for 蘋果馬網
 - v1.10 (2019-08-01)
 	- fixed blank screen in Chrome v76
 - v1.9 (2019-07-22)

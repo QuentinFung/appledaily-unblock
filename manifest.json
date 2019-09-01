@@ -3,7 +3,7 @@
 	"name": "蘋果日報免登記會員",
 	"description": "免登記成為會員都可安心睇蘋果日報🍎",
 	"icons": { "128": "icon.png" },
-	"version": "1.10",
+	"version": "1.11",
 	"content_scripts": [
 		{
 			"matches": [
@@ -26,7 +26,8 @@
 				"*://hk.feature.appledaily.com/*",
 				"*://tw.feature.appledaily.com/*",
 				"*://fashion.appledaily.com.tw/*",
-				"*://hk.appledaily.com/*"
+				"*://hk.appledaily.com/*",
+				"*://racing.appledaily.com.hk/*"
 			],
 			"js": ["content.js"],
 			"run_at": "document_start"
