@@ -67,6 +67,8 @@
 
 Changelog
 ----
+- v1.12 (2019-09-06)
+	- fixed some pages for 蘋果馬網 not handled properly
 - v1.11 (2019-09-01)
 	- added support for 蘋果馬網
 - v1.10 (2019-08-01)

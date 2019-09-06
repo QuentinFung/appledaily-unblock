@@ -38,7 +38,7 @@ try {
 			// 22JUL2019
 			html = html.replace("anvpInstance.createInstance('video_player')", "anvpInstance.createInstance('video_playerx')");
 			// 01SEP2019 蘋果馬網
-			if (link.href.substr(0, 47) == 'https://racing.appledaily.com.hk/topic/article/')
+			if (link.href.substr(0, 33) == 'https://racing.appledaily.com.hk/')
 				html += "<style>html {overflow:initial!important;} .omo-blocking {display:none!important;}</style>";
 			
 			document.open();
