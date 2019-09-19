@@ -67,6 +67,8 @@
 
 Changelog
 ----
+- v1.13 (2019-09-19)
+	- fixed video for 壹週刊 not displayed properly
 - v1.12 (2019-09-06)
 	- fixed some pages for 蘋果馬網 not handled properly
 - v1.11 (2019-09-01)

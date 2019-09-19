@@ -40,6 +40,8 @@ try {
 			// 01SEP2019 蘋果馬網
 			if (link.href.substr(0, 33) == 'https://racing.appledaily.com.hk/')
 				html += "<style>html {overflow:initial!important;} .omo-blocking {display:none!important;}</style>";
+			// 19SEP2019 nextplus
+			html = html.replace("if(confirmSubscriptionOn() && (!anvp_omo_currentuser.isLoggedIn || !anvp_omo_userentitled)){", "if (false){");
 			
 			document.open();
 			document.write(html);
