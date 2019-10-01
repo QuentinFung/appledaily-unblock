@@ -47,6 +47,8 @@
 		- https://etw.nextdigital.com.hk
 	- 蘋果馬網
 		- https://racing.appledaily.com.hk
+	- 健康蘋台
+		- https://www.applehealth.com.hk
 - 台灣
 	- 蘋果日報
 		- https://tw.appledaily.com
@@ -67,6 +69,8 @@
 
 Changelog
 ----
+- v1.14 (2019-10-01)
+	- fixed 香港, 台灣蘋果日報; added support for 健康蘋台
 - v1.13 (2019-09-19)
 	- fixed video for 壹週刊 not displayed properly
 - v1.12 (2019-09-06)
