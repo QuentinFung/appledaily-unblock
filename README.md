@@ -62,6 +62,7 @@
 		- https://tw.feature.appledaily.com
 	- 壹週刊
 		- https://www.nextmag.com.tw
+		- https://tw.nextmgz.com
 	- Apple Fashion
 		- https://fashion.appledaily.com.tw
 - 北美
@@ -69,6 +70,8 @@
 
 Changelog
 ----
+- v1.15 (2019-11-08)
+	- added support for URL like *://tw.nextmgz.com/*
 - v1.14 (2019-10-01)
 	- fixed 香港, 台灣蘋果日報; added support for 健康蘋台
 - v1.13 (2019-09-19)
