@@ -43,6 +43,7 @@
 		- https://hk.feature.appledaily.com
 	- 壹週刊
 		- https://nextplus.nextmedia.com
+		- https://hk.nextmgz.com
 	- 飲食男女
 		- https://etw.nextdigital.com.hk
 	- 蘋果馬網
@@ -70,6 +71,8 @@
 
 Changelog
 ----
+- v1.16 (2019-12-04)
+	- added support for URL like *://*.nextmgz.com/*
 - v1.15 (2019-11-08)
 	- added support for URL like *://tw.nextmgz.com/*
 - v1.14 (2019-10-01)
