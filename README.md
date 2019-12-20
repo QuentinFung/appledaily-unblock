@@ -71,6 +71,8 @@
 
 Changelog
 ----
+- v1.17 (2019-12-20)
+	- fixed some text got overlapped with ads
 - v1.16 (2019-12-04)
 	- added support for URL like *://*.nextmgz.com/*
 - v1.15 (2019-11-08)

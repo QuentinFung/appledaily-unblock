@@ -44,10 +44,12 @@ try {
 			html = html.replace("if(confirmSubscriptionOn() && (!anvp_omo_currentuser.isLoggedIn || !anvp_omo_userentitled)){", "if (false){");
 			// 01OCT2019 TW, HK
 			if (link.href.substr(0, 11) == 'https://tw.' || link.href.substr(0, 11) == 'https://hk.')
-				html += "<style>#articleBody, .scroller-truncate {overflow-y:initial!important;max-height:initial!important;} #articleOmo {display:none!important;}</style>";
+				html += "<style>#articleBody, .scroller-truncate {overflow-y:initial!important;max-height:initial!important;height: initial!important;} #articleOmo {display:none!important;}</style>";
 			// 01OCT2019 Applehealth HK
 			if (link.href.substr(0, 31) == 'https://www.applehealth.com.hk/')
 				html += "<style>.article-container-block [id^=article] .col-lg-8 {overflow:initial!important;height:initial!important;} #contentblock-block {display:none!important;} .article-container-block [id^=article] .col-lg-8:before{background:none!important;}</style>";
+			// 20DEC2019
+			html += "<style>.paywall_fade {display: none;}</style>";
 			
 			document.open();
 			document.write(html);
