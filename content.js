@@ -50,6 +50,9 @@ try {
 				html += "<style>.article-container-block [id^=article] .col-lg-8 {overflow:initial!important;height:initial!important;} #contentblock-block {display:none!important;} .article-container-block [id^=article] .col-lg-8:before{background:none!important;}</style>";
 			// 20DEC2019
 			html += "<style>.paywall_fade {display: none;}</style>";
+			// 17FEB2020 三餸一湯
+			if (link.href.substr(0, 41) == 'https://hk.feature.appledaily.com/recipe/')
+				html = html.replace("var siteMode = 2;", "var siteMode = 0;");
 			
 			document.open();
 			document.write(html);
