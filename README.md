@@ -30,49 +30,36 @@
 
 支援頁面
 ----
-- 香港
-	- 蘋果日報
-		- https://hk.appledaily.com
-		- https://hk.news.appledaily.com
-		- https://hk.video.appledaily.com
-		- https://hk.entertainment.appledaily.com
-		- https://hk.finance.appledaily.com
-		- https://hk.lifestyle.appledaily.com
-		- https://hk.sports.appledaily.com
-	- 果燃台
-		- https://hk.feature.appledaily.com
-	- 壹週刊
-		- https://nextplus.nextmedia.com
-		- https://hk.nextmgz.com
-	- 飲食男女
-		- https://etw.nextdigital.com.hk
-	- 蘋果馬網
-		- https://racing.appledaily.com.hk
-	- 健康蘋台
-		- https://www.applehealth.com.hk
-	- 三餸一湯
-		- https://hk.feature.appledaily.com/recipe
-- 台灣
-	- 蘋果日報
-		- https://tw.appledaily.com
-		- https://tw.news.appledaily.com
-		- https://tw.video.appledaily.com
-		- https://tw.entertainment.appledaily.com
-		- https://tw.finance.appledaily.com
-		- https://tw.lifestyle.appledaily.com
-		- https://tw.sports.appledaily.com
-	- 蘋果台
-		- https://tw.feature.appledaily.com
-	- 壹週刊
-		- https://www.nextmag.com.tw
-		- https://tw.nextmgz.com
-	- Apple Fashion
-		- https://fashion.appledaily.com.tw
-- 北美
-	- 蘋果日報
+- 蘋果日報
+	- https://*.appledaily.com
+	- https://*.appledaily.com.hk
+	- https://*.appledaily.com.tw
+- 會員專區
+	- https://*.feature.appledaily.com
+- 健康蘋台
+	- https://*.applehealth.com.hk
+- 果盤 (果燃台, 籽想旅行, 動物蘋台, 三餸一湯, 海外樓盤, 讀果, 懶專家)
+	- https://*.applefruity.com
+- 果GYM
+	- https://fruitgym.appledaily.com
+- Apple Fashion
+	- https://fashion.appledaily.com.tw
+- 壹週刊, 飲食男女
+	- https://*.nextmedia.com
+	- https://*.nextmgz.com
+	- https://*.nextmag.com.tw
+	- https://*.nextdigital.com.hk
+- 一丁目
+	- https://*.nextfilm.com.hk
 
 Changelog
 ----
+- v1.19 (2020-03-29)
+	- revised the URL matching scheme to allow wildcard subdomains
+	- fixed 香港, 台灣會員專區
+	- added support for 果盤 *://*.applefruity.com/*
+	- added support for 果GYM *://fruitgym.appledaily.com/*
+	- added support for 一丁目 *://*.nextfilm.com.hk/*
 - v1.18 (2020-02-17)
 	- fixed 三餸一湯
 - v1.17 (2019-12-20)
