@@ -23,7 +23,7 @@
 
 - iOS 12+ (Shortcuts)
 	1. 去 App Store 安裝 [捷徑](https://apps.apple.com/hk/app/shortcuts/id915249334)
-	2. 下載 [此捷徑](https://www.icloud.com/shortcuts/7caa719cff7c4056b4674f45b7727c6d) 並加到 捷徑
+	2. 下載 [此捷徑](https://apple-unblock.quentin.pro/ios) 並加到 捷徑
 	3. 用 Safari 去 蘋果日報 或 壹週刊
 	4. 點擊 Safari 底下的分享按鈕, 選擇 運行捷徑, 然後選擇 蘋果日報免登記會員🍎
 	5. 唔使登記成為會員都可以睇新聞
