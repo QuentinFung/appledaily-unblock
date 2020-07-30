@@ -63,7 +63,7 @@ Changelog
 ----
 - v1.20 (2020-07-31)
     - modified `content.js` to allow install as an userscript in other browsers
-    - modified console.log to be more verbose
+    - modified `console.log` to be more verbose
 - v1.19 (2020-03-29)
 	- revised the URL matching scheme to allow wildcard subdomains
 	- fixed 香港, 台灣會員專區
