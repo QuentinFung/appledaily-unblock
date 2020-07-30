@@ -12,7 +12,8 @@
 // @match       *://*.applefruity.com/*
 // @match       *://*.nextfilm.com.hk/*
 // ==/UserScript==
-// Tested to be functional on Userscripts Safari version 2.0.0. by welkinSL
+// Tested to be functional on Userscripts Safari version 2.0.0. by ed9w2in6
+// Should work in Firefox via Greasemonkey as well, not tested.
 
 // Project's Github site: https://github.com/QuentinFung/appledaily-unblock
 // Project site and change logs:  https://cutt.ly/apple-unblock
