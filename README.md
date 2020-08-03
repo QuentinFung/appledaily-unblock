@@ -15,6 +15,13 @@
 	2. 去 蘋果日報 或 壹週刊
 	3. 唔使登記成為會員都可以睇新聞
 
+- 電腦 (其他網頁瀏覽器)
+	1. 下載任何 Userscript 管理器（例如：Firefox: [Greasemonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/), Safari: [Userscripts](https://itunes.apple.com/us/app/userscripts/id1463298887), etc.）加到你嘅網頁瀏覽器。
+    2. 加一個新嘅 userscript，將 `content.js` 嘅內容 複製落去。
+    3. 啟用 userscript
+	4. 去 蘋果日報 或 壹週刊
+	5. 唔使登記成為會員都可以睇新聞
+
 - Android (Chrome Extension)
 	1. 去 Google Play 安裝 [Kiwi Browser](https://play.google.com/store/apps/details?id=com.kiwibrowser.browser)
 	2. 去 [Chrome Web Store](https://chrome.google.com/webstore/detail/%E8%98%8B%E6%9E%9C%E6%97%A5%E5%A0%B1%E5%85%8D%E7%99%BB%E8%A8%98%E6%9C%83%E5%93%A1/meakbkkjlpgdobafchgoppkninljcffn), 下載並加到 Kiwi Browser
@@ -54,6 +61,9 @@
 
 Changelog
 ----
+- v1.20 (2020-07-31)
+    - modified `content.js` to allow install as an userscript in other browsers
+    - modified `console.log` to be more verbose
 - v1.19 (2020-03-29)
 	- revised the URL matching scheme to allow wildcard subdomains
 	- fixed 香港, 台灣會員專區

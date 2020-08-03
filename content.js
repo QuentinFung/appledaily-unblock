@@ -1,22 +1,26 @@
-/*
+// ==UserScript==
+// @name        QuentinFung appledaily-unblock
+// @description 免登記都可睇蘋果日報🍎
+// @match       *://*.appledaily.com/*
+// @match       *://*.appledaily.com.hk/*
+// @match       *://*.appledaily.com.tw/*
+// @match       *://*.nextmedia.com/*
+// @match       *://*.nextmag.com.tw/*
+// @match       *://*.nextmgz.com/*
+// @match       *://*.nextdigital.com.hk/*
+// @match       *://*.applehealth.com.hk/*
+// @match       *://*.applefruity.com/*
+// @match       *://*.nextfilm.com.hk/*
+// ==/UserScript==
+// Tested to be functional on Userscripts Safari version 2.0.0. by ed9w2in6
+// Should work in Firefox via Greasemonkey as well, not tested.
 
+// Project's Github site: https://github.com/QuentinFung/appledaily-unblock
+// Project site and change logs:  https://cutt.ly/apple-unblock
 
-
-
-
-
-蘋果日報免登記會員🍎
-https://cutt.ly/apple-unblock
-
-
-
-
-
-
-*/
-console.log("🍎 SCRIPT STARTED 🍎");
+console.log("QuentinFung appledaily-unblock: 🍎 SCRIPT STARTED 🍎");
 try {
-	console.log("🍎🍎 overwritting blocking JS... 🍎🍎");
+	console.log("QuentinFung appledaily-unblock: 🍎🍎 overwritting blocking JS... 🍎🍎");
 	(function overwrite(link) {
 		//if (link.href.indexOf('.js') < 0) {
 			var xhr = new XMLHttpRequest();
@@ -116,8 +120,8 @@ try {
 		//}
 	})(location);
 } catch (ex) {
-	console.log("🍏🍏 SCRIPT Error: " + ex.message + " 🍏🍏");
+	console.log("QuentinFung appledaily-unblock: 🍏🍏 SCRIPT Error: " + ex.message + " 🍏🍏");
 }
-console.log("🍎 SCRIPT ENDED 🍎");
+console.log("QuentinFung appledaily-unblock: 🍎 SCRIPT ENDED 🍎");
 // uncomment this line for iOS Shortcut
 //completion();
